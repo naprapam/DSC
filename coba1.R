@@ -1,0 +1,5 @@
+a = c(10,20,15,43,76,41,25,46)
+b = factor(c("m","f","m","f","m","f","m","f"))
+c = c(2,5,8,3,6,1,5,6)
+coba1 = data.frame(a,b,c)
+colnames(coba1) = c("Umur", "JK", "Saudara")
